@@ -5,19 +5,17 @@ import java.util.Calendar;
 
 class Gigasecond {
 
-    Gigasecond(LocalDate birthDate) {
+    private LocalDateTime birthDateTime;
 
-        //throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+    Gigasecond(LocalDate birthDate) {
+        this.birthDateTime = birthDate.atTime(0, 0, 0);
     }
 
     Gigasecond(LocalDateTime birthDateTime) {
-        //throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        this.birthDateTime = birthDateTime;
     }
 
     LocalDateTime getDate() {
-        Calendar cal = Calendar.getInstance();
-        cal.add(Calendar.SECOND, 1000000000);
-        //throw new UnsupportedOperationException("Delete this statement and write your own implementation.");
+        return birthDateTime.plusSeconds(1000000000);
     }
-
 }
