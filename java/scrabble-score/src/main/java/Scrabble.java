@@ -3,12 +3,12 @@ class Scrabble {
     String word;
 
     Scrabble(String w) {
-        setWord(w.toUpperCase());
+        this.word = w.toUpperCase();
     }
 
     int getScore() {
         char[] c;
-        c = getWord().toCharArray();
+        c = word.toCharArray();
         int scrab = 0;
 
         for (int i = 0; i < c.length; i++) {
@@ -96,13 +96,5 @@ class Scrabble {
                 }
             }
         return scrab;
-    }
-
-    String getWord() {
-        return word;
-    }
-
-    void setWord(String word) {
-        this.word = word;
     }
 }

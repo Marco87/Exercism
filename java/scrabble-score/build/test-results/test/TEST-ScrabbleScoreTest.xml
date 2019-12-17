@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ScrabbleScoreTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-12-17T03:14:32" hostname="marco-HP-Pavilion-dv6-Notebook-PC" time="0.005">
+<testsuite name="ScrabbleScoreTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-12-17T03:23:51" hostname="marco-HP-Pavilion-dv6-Notebook-PC" time="0.007">
   <properties/>
   <testcase name="testAShortValuableWord" classname="ScrabbleScoreTest" time="0.001"/>
   <testcase name="testEntireAlphabetAvailable" classname="ScrabbleScoreTest" time="0.0"/>
@@ -7,7 +7,7 @@
   <testcase name="testALongMixCaseWord" classname="ScrabbleScoreTest" time="0.0"/>
   <testcase name="testAEnglishLikeWord" classname="ScrabbleScoreTest" time="0.0"/>
   <testcase name="testAValuableLetter" classname="ScrabbleScoreTest" time="0.0"/>
-  <testcase name="testALowerCaseLetter" classname="ScrabbleScoreTest" time="0.0"/>
+  <testcase name="testALowerCaseLetter" classname="ScrabbleScoreTest" time="0.001"/>
   <testcase name="testAMediumWord" classname="ScrabbleScoreTest" time="0.0"/>
   <testcase name="testAnEmptyInput" classname="ScrabbleScoreTest" time="0.0"/>
   <testcase name="testAShortWord" classname="ScrabbleScoreTest" time="0.0"/>
