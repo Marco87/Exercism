@@ -1,0 +1,5 @@
+def is_pangram(sentence):
+    if(sentence.lower().count("a") > 0) and (sentence.lower().count("b") > 0) and (sentence.lower().count("c") > 0) and (sentence.lower().count("d") > 0) and (sentence.lower().count("e") > 0) and (sentence.lower().count("f") > 0) and (sentence.lower().count("g") > 0) and (sentence.lower().count("h") > 0) and (sentence.lower().count("i") > 0) and (sentence.lower().count("j") > 0) and (sentence.lower().count("k") > 0) and (sentence.lower().count("l") > 0) and (sentence.lower().count("m") > 0) and (sentence.lower().count("n") > 0) and (sentence.lower().count("o") > 0) and (sentence.lower().count("p") > 0) and (sentence.lower().count("q") > 0) and (sentence.lower().count("r") > 0) and (sentence.lower().count("s") > 0) and (sentence.lower().count("t") > 0) and (sentence.lower().count("u") > 0) and (sentence.lower().count("v") > 0) and (sentence.lower().count("w") > 0) and (sentence.lower().count("x") > 0) and (sentence.lower().count("y") > 0) and (sentence.lower().count("z") > 0):
+        return True
+    else:
+        return False
